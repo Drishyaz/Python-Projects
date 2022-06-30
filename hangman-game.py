@@ -1,3 +1,23 @@
+###########################################
+#The classic HANGMAN game.
+#Hangman is a game where the user/player has to guess a word correctly within limited guesses/chances.
+#Suppose, the word is ELEPHANT.
+#To the player, it will appear as a sequence of underscores(_).
+# E.g, _ _ _ _ _ _ _ _
+#the word is of length 8 and you have 5 guesses/chances left!
+
+#If the player guesses E or e, then the dashes will get filled, such as,
+# E.g, E _ E _ _ _ _ _
+
+#If the player makes a wrong guess, such as a 'M', that doesn't exist in the word 'ELEPHANT', the player gets a visual representation of hangman looking figure appearing stroke by stroke.
+#Also, number of guesses left is shown!
+#Therefore, if player can guess the correct word before the chances/guessees run out,
+# HE WON THE GAME!
+
+#otherwise, if he can't guess within the limited chances/guesses,
+# GAME OVER!
+##########################################
+
 import random
 #this method displays the hangman based on number of guesses left
 def showHangman(n):
